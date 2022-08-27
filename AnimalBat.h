@@ -11,6 +11,7 @@ class AnimalBat: public Murcielago {
 public:
     void volar() override;
     void dormirColgado() override;
+    void amamantar() override;
 };
 
 

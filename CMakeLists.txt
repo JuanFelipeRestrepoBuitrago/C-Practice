@@ -3,4 +3,4 @@ project(Clase3POO)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Clase3POO main.cpp Dracula.cpp Dracula.h Vampiro.cpp Vampiro.h Murcielago.h Murcielago.cpp AnimalBat.cpp AnimalBat.h)
+add_executable(Clase3POO main.cpp Dracula.cpp Dracula.h Vampiro.cpp Vampiro.h Murcielago.h Murcielago.cpp AnimalBat.cpp AnimalBat.h Mamifero.cpp Mamifero.h)

@@ -13,3 +13,7 @@ void AnimalBat::volar() {
 void AnimalBat::dormirColgado() {
     cout << "Murcielado durmiendo..." << endl;
 }
+
+void AnimalBat::amamantar() {
+    cout << "Dando Lechita..." << endl;
+}

@@ -84,6 +84,13 @@ build CMakeFiles\Clase3POO.dir\AnimalBat.cpp.obj: CXX_COMPILER__Clase3POO_Debug 
   TARGET_COMPILE_PDB = CMakeFiles\Clase3POO.dir\
   TARGET_PDB = Clase3POO.pdb
 
+build CMakeFiles\Clase3POO.dir\Mamifero.cpp.obj: CXX_COMPILER__Clase3POO_Debug D$:\Archivos$ de$ Aplicaciones\CLion\PROJECTS\Lenguajes$ de$ Programacion\Clase3POO\Mamifero.cpp || cmake_object_order_depends_target_Clase3POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++20
+  OBJECT_DIR = CMakeFiles\Clase3POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\Clase3POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Clase3POO.dir\
+  TARGET_PDB = Clase3POO.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Clase3POO
@@ -92,7 +99,7 @@ build CMakeFiles\Clase3POO.dir\AnimalBat.cpp.obj: CXX_COMPILER__Clase3POO_Debug 
 #############################################
 # Link the executable Clase3POO.exe
 
-build Clase3POO.exe: CXX_EXECUTABLE_LINKER__Clase3POO_Debug CMakeFiles\Clase3POO.dir\main.cpp.obj CMakeFiles\Clase3POO.dir\Dracula.cpp.obj CMakeFiles\Clase3POO.dir\Vampiro.cpp.obj CMakeFiles\Clase3POO.dir\Murcielago.cpp.obj CMakeFiles\Clase3POO.dir\AnimalBat.cpp.obj
+build Clase3POO.exe: CXX_EXECUTABLE_LINKER__Clase3POO_Debug CMakeFiles\Clase3POO.dir\main.cpp.obj CMakeFiles\Clase3POO.dir\Dracula.cpp.obj CMakeFiles\Clase3POO.dir\Vampiro.cpp.obj CMakeFiles\Clase3POO.dir\Murcielago.cpp.obj CMakeFiles\Clase3POO.dir\AnimalBat.cpp.obj CMakeFiles\Clase3POO.dir\Mamifero.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

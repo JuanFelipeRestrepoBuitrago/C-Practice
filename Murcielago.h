@@ -9,9 +9,11 @@
 #endif //CLASE3POO_MURCIELAGO_H
 
 #include "iostream"
+#include "Mamifero.h"
+
 using namespace std;
 
-class Murcielago{
+class Murcielago: public Mamifero{
 public:
     virtual void volar() = 0;
     virtual void comerFrutas();
